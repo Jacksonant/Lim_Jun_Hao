@@ -1,0 +1,121 @@
+{
+    "projects": [
+        {
+            "level": "Mini",
+            "name": "Dino Game",
+            "img": "https://w7.pngwing.com/pngs/608/941/png-transparent-tyrannosaurus-dino-t-rex-google-chrome-jumping-dinosaur-dinosaur-game-angle-white-thumbnail.png",
+            "alt": "Screenshot of the Dino Game project",
+            "description": "Google browser dino game with auto mode as extra play mode.",
+            "technologies": [
+                "Vanilla Javascript",
+                "HTML",
+                "CSS",
+                "Automation"
+            ],
+            "githubLink": "https://github.com/Jacksonant/Dino-game.git",
+            "vercelLink": "https://dino-game-fawn.vercel.app/"
+        },
+        {
+            "level": "Mini",
+            "name": "Spotify Clone",
+            "img": "https://play-lh.googleusercontent.com/P2VMEenhpIsubG2oWbvuLGrs0GyyzLiDosGTg8bi8htRXg9Uf0eUtHiUjC28p1jgHzo=w600-h300-pc0xffffff-pd",
+            "alt": "Screenshot of the Spotify clone image",
+            "description": "A clone of Spotify user dashboard with functional music playing",
+            "technologies": [
+                "Vanilla Javascript",
+                "HTML",
+                "CSS",
+                "Spotify API"
+            ],
+            "githubLink": "https://github.com/Jacksonant/Spotify-clone.git",
+            "vercelLink": "https://jacksonant.github.io/Spotify-clone/"
+        },
+        {
+            "level": "Mini",
+            "name": "E-commerce website clone",
+            "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQYmqv5xE7rFJeohN_rahePTPQvFh0xWcCEg&usqp=CAU",
+            "alt": "Screenshot of the e-commerce clone",
+            "description": "A buggy, rough clone of Shopee without payment function",
+            "technologies": [
+                "Javascript",
+                "HTML",
+                "CSS",
+                "API"
+            ],
+            "githubLink": "https://github.com/Jacksonant/E-commerce-website-clone.git",
+            "vercelLink": "https://jacksonant.github.io/E-commerce-website-clone/"
+        },
+        {
+            "level": "Freelance",
+            "name": "Talentloop website",
+            "img": "/Talentloop-Logo.png",
+            "alt": "Screenshot of the talentloop logo",
+            "description": "A simple web for job seekers and searchers to join/hire company",
+            "technologies": [
+                "Svelte",
+                "SST",
+                "AWS",
+                "GCP",
+                "Google Sheet",
+                "Prismic"
+            ],
+            "githubLink": "",
+            "vercelLink": "https://www.talentloop.co/"
+        },
+        {
+            "level": "Mini",
+            "name": "Bouncing ball animation",
+            "img": "https://cms-assets.tutsplus.com/uploads/users/1112/posts/24787/preview_image/animate-ball-cleanup-preview.jpg",
+            "alt": "Screenshot of the bouncing ball",
+            "description": "Bouncing ball animation that never touches the edges",
+            "technologies": [
+                "HTML",
+                "CSS"
+            ],
+            "githubLink": "https://github.com/Jacksonant/Bouncing-Ball.git",
+            "vercelLink": "https://jacksonant.github.io/Bouncing-Ball/"
+        },
+        {
+            "level": "Mini",
+            "name": "Infinity-path ball hovering animation",
+            "img": "data:image/jpeg;base64,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",
+            "alt": "Screenshot of the bouncing ball",
+            "description": "Infinity-path infinity-path ball animation",
+            "technologies": [
+                "HTML",
+                "CSS"
+            ],
+            "githubLink": "https://github.com/Jacksonant/inifity-shaped-ball-hovering-animation.git",
+            "vercelLink": "https://jacksonant.github.io/inifity-shaped-ball-hovering-animation/"
+        },
+        {
+            "level": "Mini",
+            "name": "Word guessing game",
+            "img": "https://www.mindgames.com/uploaded/game/screenshot/guess-word-800.webp",
+            "alt": "Screenshot of the word guessing game",
+            "description": "Very advanced level of English word guessing game, but API is down currently",
+            "technologies": [
+                "Vanilla Javascript",
+                "HTML",
+                "CSS",
+                "API"
+            ],
+            "githubLink": "https://github.com/Jacksonant/word-guessing-game.git",
+            "vercelLink": "https://word-guessing-game-olive.vercel.app/"
+        },
+        {
+            "level": "Mini",
+            "name": "Google landing page clone",
+            "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Google_Homepage.svg/1200px-Google_Homepage.svg.png",
+            "alt": "Screenshot of the google clone",
+            "description": "First clone: Google landing page clone",
+            "technologies": [
+                "Vanilla Javascript",
+                "HTML",
+                "CSS"
+            ],
+            "githubLink": "https://github.com/Jacksonant/google-clone.git",
+            "vercelLink": "https://jacksonant.github.io/google-clone/GooglePage.html"
+        }
+    ]
+}

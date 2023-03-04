@@ -1,0 +1,15 @@
+{
+    "works": [
+        {
+            "title": "Software Developer",
+            "companyName": "Epic Startups",
+            "companyLink": "https://www.epicstartups.co/",
+            "period": "Sept 2022 - Present",
+            "contents": [
+                "Utilize Svelte to develop the frontend of the web applications according to the UI/UX designer's design",
+                "Liase with clients to resolve any raised issues related to the web application",
+                "Build the admin panel of the web applications with Retool and develop the backend systems using Express.js"
+            ]
+        }
+    ]
+}
