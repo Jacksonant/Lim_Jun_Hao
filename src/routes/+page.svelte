@@ -11,7 +11,7 @@
 </script>
 
 <SectionCard>
-  <section class="border flex flex-col h-fit w-full md:w-[60%]">
+  <section class="mt-20 flex flex-col h-fit w-full md:w-[60%]">
     <h4 class="text-[var(--primary-green)] mb-6 highlight">Hi, my name is</h4>
     <h2 class=" text-[var(--secondary-gray)] text-4xl font-semibold">
       Lim Jun Hao
@@ -19,7 +19,7 @@
 
     <h3 class="mt-4 text-3xl font-semibold">I love building things</h3>
 
-    <section class=" mt-4 border md:hidden block flex flex-col w-full h-[280px]">
+    <section class=" mt-4  md:hidden block flex flex-col w-full h-[280px]">
       <!-- svelte-ignore a11y-img-redundant-alt -->
       <img class="h-full" src="/default-image.jpeg" alt="default-image" />
     </section>
@@ -60,14 +60,14 @@
       >
     </div>
   </section>
-  <section class="border hidden md:flex flex-col w-[40%] items-end md:h-[280px] xl:h-[480px]">
+  <section class="mt-20  hidden md:flex flex-col w-[40%] items-end md:h-[280px] xl:h-[480px]">
     <!-- svelte-ignore a11y-img-redundant-alt -->
     <img class="h-full" src="/default-image.jpeg" alt="default-image" />
   </section>
 </SectionCard>
 
 <SectionCard>
-  <section class="border flex flex-col h-fit w-full md:w-[60%]">
+  <section class=" flex flex-col h-fit w-full md:w-[60%]">
     <h2 class="text-[var(--secondary-gray)] text-4xl font-semibold">
       Technology Stack
     </h2>
@@ -123,14 +123,14 @@
       <li>Python</li>
     </ul>
   </section>
-  <section class="border hidden md:flex flex-col w-[40%] items-end md:h-[280px] xl:h-[480px]">
+  <section class=" hidden md:flex flex-col w-[40%] items-end md:h-[280px] xl:h-[480px]">
     <!-- svelte-ignore a11y-img-redundant-alt -->
     <img class="h-full" src="/default-image.jpeg" alt="default-image" />
   </section>
 </SectionCard>
 
 <SectionCard>
-  <section class="border flex flex-col w-full h-fit">
+  <section class=" flex flex-col w-full h-fit">
     <h2 class="text-[var(--secondary-gray)] text-4xl font-semibold">
       IT Work Experiences
     </h2>
@@ -145,7 +145,7 @@
 </SectionCard>
 
 <SectionCard>
-  <section class="border flex flex-col w-full h-fit">
+  <section class=" flex flex-col w-full h-fit">
     <h2 class="text-[var(--secondary-gray)] text-4xl font-semibold">
       Some Things I've Built
     </h2>
@@ -159,7 +159,7 @@
 </SectionCard>
 
 <SectionCard>
-  <section class="border flex flex-col w-full h-fit">
+  <section class=" flex flex-col w-full h-fit">
     <h2 class="text-[var(--secondary-gray)] text-4xl font-semibold">
       IT Education
     </h2>

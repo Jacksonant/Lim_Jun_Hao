@@ -38,7 +38,7 @@
 <section
   class="transition-all duration-500 ease-in-out {showTopBar
     ? 'translate-y-1/5'
-    : '-translate-y-full'} border border-white transform drop-shadow-xl drop-shadow-[0_35px_35px_rgba(0,0,0,0.25)]  bg-[#0a192f] text-[var(--primary-green)]  flex items-start  w-screen justify-between px-8 pt-8 pb-4 fixed top-0 z-50"
+    : '-translate-y-full'} transform drop-shadow-xl drop-shadow-[0_35px_35px_rgba(1,1,1,1.25)]  bg-[#0a192f] text-[var(--primary-green)]  flex items-start  w-screen justify-between px-8 pt-8 pb-4 fixed top-0 z-50"
 >
   <!-- svelte-ignore a11y-click-events-have-key-events -->
   <div
