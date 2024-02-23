@@ -16,7 +16,7 @@
   $: button = "";
 
   const pages = [
-    { page: "Coming Soon!", link: "/backup" },
+    { page: "Coming Soon!", link: "/" },
     { page: "Coming Soon!", link: "/" },
     { page: "Coming Soon!", link: "/" },
     { page: "Coming Soon!", link: "/" },

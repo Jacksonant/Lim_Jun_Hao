@@ -36,7 +36,7 @@
       <a
         target="_blank"
         rel="noreferrer"
-        href="https://www.linkedin.com/in/jun-hao-b561411b1/"
+        href="https://www.linkedin.com/in/lim-j-981050132/"
         class="text-gray-500 hover:text-[var(--primary-green)]"
         ><svg
           class="w-6 h-6 "
@@ -105,7 +105,7 @@
       </a>
     </li>
 
-    <li class="">
+    <li class="hidden">
       <a
         target="_blank"
         rel="noreferrer"
@@ -133,7 +133,7 @@
 
   <div class="flex flex-col jusitfy-center items-center">
     <small>Designed & Built by Lim Jun Hao</small>
-    <small>Svelte Framework</small>
+    <small>Sveltekit Framework</small>
     <small>Version 0</small>
   </div>
 </footer>

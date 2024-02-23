@@ -35,7 +35,7 @@
             "name": "E-commerce website clone",
             "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQYmqv5xE7rFJeohN_rahePTPQvFh0xWcCEg&usqp=CAU",
             "alt": "Screenshot of the e-commerce clone",
-            "description": "A buggy, rough clone of Shopee without payment function",
+            "description": "A simple, BUGGY, ROUGH version of e-commerce without payment function",
             "technologies": [
                 "Javascript",
                 "HTML",

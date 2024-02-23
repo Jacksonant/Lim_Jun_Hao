@@ -1,15 +1,37 @@
 {
-    "works": [
-        {
-            "title": "Software Developer",
-            "companyName": "Epic Startups",
-            "companyLink": "https://www.epicstartups.co/",
-            "period": "Sept 2022 - Present",
-            "contents": [
-                "Utilize Svelte to develop the frontend of the web applications according to the UI/UX designer's design",
-                "Liase with clients to resolve any raised issues related to the web application",
-                "Build the admin panel of the web applications with Retool and develop the backend systems using Express.js"
-            ]
-        }
-    ]
+  "works": [
+    {
+      "title": "Software Developer",
+      "companyName": "Aviantech Sdn. Bhd.",
+      "companyLink": "https://www.avianflow.com/",
+      "period": "April 2023 - Present",
+      "contents": [
+        "Working as a frontend developer to develop a workflow ERP system by using Sveltekit and React JS and collaborating with backend developer to integrate backend API into the system"
+      ]
+    },
+    {
+      "title": "Software Developer (Part Time)",
+      "companyName": "Epic Startups Sdn. Bhd.",
+      "companyLink": "https://www.epicstartups.co/",
+      "period": "April 2023 - Present",
+      "contents": [
+        "Collaborate with backend developer and designer to develop frontend of the job matching portal, fruit delivery site and e-commerce platform with Sveltekit, Vue JS and Astro JS frameworks with Graphql",
+        "Showcaseable project: <a class='text-[var(--primary-green)] no-underline underline' href='https://gaiabox.co' target='_blank' rel='noopener noreferrer'>https://gaiabox.co<a>",
+        "Build pure frontend projects such as marketing funnel form templates and templates generator with Sveltekit"
+      ]
+    },
+    {
+      "title": "Software Developer",
+      "companyName": "Epic Startups Sdn. Bhd.",
+      "companyLink": "https://www.epicstartups.co/",
+      "period": "Sept 2022 - April 2023",
+      "contents": [
+        "Build the entire frontend codebase for job matching portal using Sveltekit and Graphql integration with Houdini",
+        "Working in a team to develop frontend of the ride booking system, warehouse management system by using Sveltekit",
+        "Liaise with clients to solve any issues and maintain the web applications",
+        "Develop admin panels of some web applications with Retool",
+        "Has minimal exposure with Express JS for developing ride booking calculation"
+      ]
+    }
+  ]
 }

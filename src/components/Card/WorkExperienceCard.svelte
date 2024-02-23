@@ -24,10 +24,10 @@
 
   <p class="font-light mb-4">{payload?.period}</p>
 
-  <ul class="list-inside space-y-4">
+  <ul class="px-4 list-disc marker:text-white space-y-4">
     {#each payload?.contents as content}
       <li>
-        {content}
+        {@html content}
       </li>
     {/each}
   </ul>
