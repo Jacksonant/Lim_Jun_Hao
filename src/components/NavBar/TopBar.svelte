@@ -2,6 +2,7 @@
   import { goto } from "$app/navigation";
   import { page as Page } from "$app/stores";
   import { createEventDispatcher, onMount } from "svelte";
+  import { fly } from "svelte/transition";
 
   /**
    * @type {any}
@@ -38,7 +39,7 @@
 <section
   class="transition-all duration-500 ease-in-out {showTopBar
     ? 'translate-y-1/5'
-    : '-translate-y-full'} transform drop-shadow-xl drop-shadow-[0_35px_35px_rgba(1,1,1,1.25)]  bg-[#0a192f] text-[var(--primary-green)]  flex items-start  w-screen justify-between px-8 pt-8 pb-4 fixed top-0 z-50"
+    : '-translate-y-full'} transform drop-shadow-xl drop-shadow-[0_35px_35px_rgba(1,1,1,1.25)] bg-[#0a192f] opacity-100 text-[var(--primary-green)] backdrop-blur-md flex items-start w-screen justify-between px-8 pt-8 pb-4 fixed top-0 z-50"
 >
   <!-- svelte-ignore a11y-click-events-have-key-events -->
   <div
@@ -92,6 +93,7 @@
   {#if isShowMenu}
     <div
       id="mobile-menu"
+      transition:fly={{ y: 0, duration: 50 }}
       class="transition-all duration-500 ease-in-out translate-y-[80px] z-40 bg-[#0a192f] absolute inset-0 flex flex-col w-screen"
     >
       {#each pages as page}
@@ -102,7 +104,7 @@
           }}
           class="p-4 {$Page?.url?.pathname.includes(`${page.link}`)
             ? ' text-white'
-            : 'bg-[var(--primary-green)] text-[#0a192f]'} bg-[#0a192f] hover:text-white "
+            : 'bg-[var(--primary-green)] text-[#0a192f]'} bg-[#0a192f] hover:text-white"
           href={page.link}>{page.page}</a
         >
       {/each}

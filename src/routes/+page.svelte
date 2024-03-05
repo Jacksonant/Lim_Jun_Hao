@@ -7,17 +7,38 @@
   import WorkExperienceCard from "../components/Card/WorkExperienceCard.svelte";
   import ProjectCard from "../components/Card/ProjectCard.svelte";
   import Whatsapp from "../components/Custom/Whatsapp.svelte";
-
 </script>
 
 <svelte:head>
-	<title>
-		{`Lim Jun Hao | Dashboard`}
-	</title>
+  <title>
+    {`Lim Jun Hao | Dashboard`}
+  </title>
 </svelte:head>
 
+  <header
+    class="flex items-center justify-center h-screen max-md:max-h-[500px] md:max-h-[1300px] mb-12 bg-fixed bg-center bg-cover space-img w-full"
+  >
+    <div class="p-5 text-2xl text-white bg-green-300 bg-opacity-50 rounded-xl hover:shadow-lg transition-all hover:scale-[1.05] cursor-cell">
+      Welcome to my site!
+    </div>
+  </header>
+
+  <!-- <div class="relative h-full">
+    <video class="absolute z-1 w-full h-full object-cover" autoplay muted loop>
+      <source src="/videos/space.mov" type="video/mp4" />
+    </video>
+    
+    <div class="absolute inset-0 z-2 bg-black"></div>
+  </div> -->
+
+  <!-- <iframe
+  class="bg-white absolute z-1 w-full h-full object-cover"
+  src="https://www.youtube.com/embed/Qw89ZlNprpc"
+  title=""
+/> -->
+
 <SectionCard>
-  <section class="mt-20 flex flex-col h-fit w-full md:w-[60%]">
+  <section class="flex flex-col h-fit w-full md:w-[60%]">
     <h4 class="text-[var(--primary-green)] mb-6 highlight">Hi, my name is</h4>
     <h2 class=" text-[var(--secondary-gray)] text-4xl font-semibold">
       Lim Jun Hao
@@ -25,7 +46,9 @@
 
     <h3 class="mt-4 text-3xl font-semibold">I love building things</h3>
 
-    <section class=" mt-4 md:hidden block flex flex-col w-full max-w-xl h-[280px]">
+    <section
+      class=" mt-4 md:hidden block flex flex-col w-full max-w-xl h-[280px]"
+    >
       <!-- svelte-ignore a11y-img-redundant-alt -->
       <img class="h-full" src="/default-image.jpeg" alt="default-image" />
     </section>
@@ -158,7 +181,9 @@
       Some Things I've Built
     </h2>
 
-    <div class="mt-8 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3 space-y-0">
+    <div
+      class="mt-8 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3 space-y-0"
+    >
       {#each projects as project}
         <ProjectCard bind:project />
       {/each}
@@ -235,3 +260,9 @@
     </div>
   </section>
 </SectionCard>
+
+<style>
+  .space-img {
+    background-image: url("https://images.unsplash.com/photo-1454496522488-7a8e488e8606?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1955&q=80");
+  }
+</style>
