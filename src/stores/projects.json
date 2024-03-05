@@ -13,7 +13,7 @@
                 "Automation"
             ],
             "githubLink": "https://github.com/Jacksonant/Dino-game.git",
-            "vercelLink": "https://dino-game-fawn.vercel.app/"
+            "deployedLink": "https://dino-game-fawn.vercel.app/"
         },
         {
             "level": "Mini",
@@ -28,7 +28,7 @@
                 "Spotify API"
             ],
             "githubLink": "https://github.com/Jacksonant/Spotify-clone.git",
-            "vercelLink": "https://jacksonant.github.io/Spotify-clone/"
+            "deployedLink": "https://jacksonant.github.io/Spotify-clone/"
         },
         {
             "level": "Mini",
@@ -43,7 +43,7 @@
                 "API"
             ],
             "githubLink": "https://github.com/Jacksonant/E-commerce-website-clone.git",
-            "vercelLink": "https://jacksonant.github.io/E-commerce-website-clone/"
+            "deployedLink": "https://jacksonant.github.io/E-commerce-website-clone/"
         },
         {
             "level": "Freelance",
@@ -60,7 +60,7 @@
                 "Prismic"
             ],
             "githubLink": "",
-            "vercelLink": "https://www.talentloop.co/"
+            "deployedLink": "https://www.talentloop.co/"
         },
         {
             "level": "Mini",
@@ -73,7 +73,7 @@
                 "CSS"
             ],
             "githubLink": "https://github.com/Jacksonant/Bouncing-Ball.git",
-            "vercelLink": "https://jacksonant.github.io/Bouncing-Ball/"
+            "deployedLink": "https://jacksonant.github.io/Bouncing-Ball/"
         },
         {
             "level": "Mini",
@@ -86,7 +86,7 @@
                 "CSS"
             ],
             "githubLink": "https://github.com/Jacksonant/inifity-shaped-ball-hovering-animation.git",
-            "vercelLink": "https://jacksonant.github.io/inifity-shaped-ball-hovering-animation/"
+            "deployedLink": "https://jacksonant.github.io/inifity-shaped-ball-hovering-animation/"
         },
         {
             "level": "Mini",
@@ -101,7 +101,7 @@
                 "API"
             ],
             "githubLink": "https://github.com/Jacksonant/word-guessing-game.git",
-            "vercelLink": "https://jacksonant.github.io/word-guessing-game/"
+            "deployedLink": "https://jacksonant.github.io/word-guessing-game/"
         },
         {
             "level": "Mini",
@@ -115,7 +115,7 @@
                 "CSS"
             ],
             "githubLink": "https://github.com/Jacksonant/google-clone.git",
-            "vercelLink": "https://jacksonant.github.io/google-clone/GooglePage.html"
+            "deployedLink": "https://jacksonant.github.io/google-clone/GooglePage.html"
         }
     ]
 }

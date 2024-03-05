@@ -7,9 +7,14 @@
   import WorkExperienceCard from "../components/Card/WorkExperienceCard.svelte";
   import ProjectCard from "../components/Card/ProjectCard.svelte";
   import Whatsapp from "../components/Custom/Whatsapp.svelte";
+
 </script>
 
-<svelte:window title="Lim Jun Hao" />
+<svelte:head>
+	<title>
+		{`Lim Jun Hao | Dashboard`}
+	</title>
+</svelte:head>
 
 <SectionCard>
   <section class="mt-20 flex flex-col h-fit w-full md:w-[60%]">
@@ -153,7 +158,7 @@
       Some Things I've Built
     </h2>
 
-    <div class="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
+    <div class="mt-8 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3 space-y-0">
       {#each projects as project}
         <ProjectCard bind:project />
       {/each}

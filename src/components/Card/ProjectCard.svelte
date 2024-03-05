@@ -1,4 +1,6 @@
 <script lang="ts">
+  import { GlobeAlt, Icon } from "svelte-hero-icons";
+
   export let project = {
     level: "",
     name: "",
@@ -7,11 +9,11 @@
     img: "",
     alt: "",
     githubLink: "",
-    vercelLink: "",
+    deployedLink: "",
   };
 </script>
 
-<div class="relative cursor-pointer rounded-md mt-10 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 hover:shadow-lg hover:shadow-white	">
+<div class="relative cursor-pointer rounded-md transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 hover:shadow-lg hover:shadow-white	">
   <div class="  py-10 px-10 md:px-12">
     <p class="highlight">{project.level} Project</p>
     <h3 class="text-xl font-semibold mb-4 text-[var(--secondary-gray)]">
@@ -54,12 +56,12 @@
       {/if}
 
       <a
-        class="h-5 w-5 z-10  text-[var(--secondary-gray)] "
-        href={project.vercelLink}
+        class="h-6 w-6 z-10 flex items-center text-[var(--secondary-gray)] "
+        href={project.deployedLink}
         target="_blank"
         rel="noreferrer"
       >
-        <svg
+        <!-- <svg
           width="84"
           height="65"
           viewBox="0 0 84 65"
@@ -71,7 +73,8 @@
           xmlns="http://www.w3.org/2000/svg"
           class="w-5 h-5 hover:text-[var(--primary-green)] transition-all duration-150"
           ><path d="M37.5274 0L75.0548 65H0L37.5274 0Z" fill="nones" /></svg
-        >
+        > -->
+        <Icon src={GlobeAlt} class="w-full h-full" />
       </a>
     </div>
   </div>
